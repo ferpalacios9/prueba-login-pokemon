@@ -29,7 +29,7 @@ La prueba consistirá en construir una API REST (basada en .NET preferentemente,
         - Id del pokémon (Id)
         - Nombre del pokémon (name)
         - 2 Imágenes del pokémon (sprites)
-    -   Agregar como favorito dentro de la aplicación web
+    -   Funcionalidad para agregar pokémon como favorito dentro de la aplicación web
     -   Poder eliminar favoritos
 
 _Nota: Para realizar esta prueba es necesario tener una instancia de [SQL Server Developer o SQL Server Express](https://www.microsoft.com/es-mx/sql-server/sql-server-downloads) o de alguna Base de Datos Relacional en tu equipo y compartir en el repositorio los scripts de creación del esquema de la base de datos._
