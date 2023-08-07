@@ -32,7 +32,7 @@ La prueba consistirá en construir una API REST (basada en .NET preferentemente,
     -   Agregar como favorito dentro de la aplicación web
     -   Poder eliminar favoritos
 
-_Nota: Para realizar esta prueba es necesario tener una instancia de [SQL Server Developer o SQL Server Express](https://www.microsoft.com/es-mx/sql-server/sql-server-downloads)  en tu equipo para poder guardar usuarios y tareas, y compartir en el repositorio los scripts de creación del esquema de la base de datos._
+_Nota: Para realizar esta prueba es necesario tener una instancia de [SQL Server Developer o SQL Server Express](https://www.microsoft.com/es-mx/sql-server/sql-server-downloads) o de alguna Base de Datos Relacional en tu equipo y compartir en el repositorio los scripts de creación del esquema de la base de datos._
 
 **La estructura del repositorio debe de tener tres directorios en la raíz, aparte de este README.MD, un directorio para la aplicación web, otro para el API REST y un último para los scripts de la base de datos.**
 
@@ -49,11 +49,11 @@ Para la solución de esta prueba es necesario tomar en cuenta:
 
 Si tienes alguna duda sobre la evaluación puedes mandar un correo electrónico a:
 - rodrigo.mendoza@overcastmx.com
-- dmendoza@overcastmx.com
 - rmendoza@overcastmx.com
+- storres@overcastmx.com
 
 Manda la liga de tu repositorio público a 
 - alara@overcastmx.com
 - rodrigo.mendoza@overcastmx.com
-- dmendoza@overcastmx.com
 - rmendoza@overcastmx.com
+- storres@overcastmx.com
