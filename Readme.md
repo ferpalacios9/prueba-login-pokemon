@@ -17,23 +17,20 @@ Nombre completo: **Aquí va tu nombre**
 
 La prueba consistirá en construir una API REST (basada en .NET preferentemente, pero puedes utilizar el lenguaje que más te guste) y una aplicación web (ocupando algún framework de JavaScript como por ejemplo Angular, Vue o React), que solucionen los siguientes puntos:
 
--   Página de inicio de sesión que utilice.
+-   Página de inicio de sesión que utilice alguna de estas 3 opciones.
     - Inicio de sesión de Google
-    - Inicio de sesión de Microsoft
-    - Inicio de sesión de Facebook (Opcional)
+    - Inicio de sesión de Microsoft (De preferencia)
+    - Inicio de sesión de Facebook
 
 -   Una vez que el usuario inició sesión, el usuario debe poder realizar los siguientes puntos:
-    -   Crear tareas con las siguientes propiedades:
-        -   Nombre de tarea
-        -   Descripción
-        -   Fecha de creación
-        -   Estado de la tarea (pendiente o completada)
-    -   Poder realizar actualizaciones a las propiedades necesarias de las tareas
-    -   Mostrar una lista de las tareas creadas, y dentro de esta lista poder realizar lo siguiente:
-        -   Ordenar las tareas por fecha de creación
-        -   Ordenar las tareas por nombre
-        -   Filtrar las tareas por estado (pendiente o completada)
-    -   Poder eliminar tareas
+    -   Conexión a PokéAPI (https://pokeapi.co/)
+    -   Buscar pokémones por nombre
+    -   El resultado de la busqueda tendra que arrojar los siguientes datos:
+        - Id del pokémon (Id)
+        - Nombre del pokémon (name)
+        - 2 Imágenes del pokémon (sprites)
+    -   Agregar como favorito dentro de la aplicación web
+    -   Poder eliminar favoritos
 
 _Nota: Para realizar esta prueba es necesario tener una instancia de [SQL Server Developer o SQL Server Express](https://www.microsoft.com/es-mx/sql-server/sql-server-downloads)  en tu equipo para poder guardar usuarios y tareas, y compartir en el repositorio los scripts de creación del esquema de la base de datos._
 
@@ -44,7 +41,7 @@ Para la solución de esta prueba es necesario tomar en cuenta:
 -   Programación Orientada a Objetos
 -   Uso de un ORM (opcional)
 -   Uso de algún framework CSS (opcional)
--   Agregar la documentación que se necesite para ejecutar las aplicaciones
+-   Agregar la documentación necesaria para compilar, ejecutar y/o desplegar la API y la aplicación web
 
 ----------
 
