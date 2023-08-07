@@ -2,7 +2,7 @@
 
 Prueba: **Desarrollador**
 
-Deadline: **36 horas**
+Deadline: **36 horas naturales**
 
 Nombre completo: **Aquí va tu nombre**
 
