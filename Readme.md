@@ -15,7 +15,7 @@ Nombre completo: **Aquí va tu nombre**
 
 # Prueba
 
-La prueba consistirá en construir una API REST (basada en .NET preferentemente, pero puedes utilizar el lenguaje que más te guste) y una aplicación web (ocupando algún framework de JavaScript como por ejemplo Angular, Vue o React), que solucionen los siguientes puntos:
+La prueba consistirá en construir una API REST (basada en .NET preferentemente, pero puedes utilizar el lenguaje que más te guste) y una aplicación web (ocupando algún framework o librería de JavaScript como por ejemplo Angular, Vue o React), que solucionen los siguientes puntos:
 
 -   Página de inicio de sesión que utilice alguna de estas 3 opciones.
     - Inicio de sesión de Google
@@ -23,6 +23,8 @@ La prueba consistirá en construir una API REST (basada en .NET preferentemente,
     - Inicio de sesión de Facebook
 
 -   Una vez que el usuario inició sesión, el usuario debe poder realizar los siguientes puntos:
+    -   Página de inicio con buscador de pokémones
+    -   Página de perfil del usuairo. Debe contener nombre(s), apellido(s) e imagen. Todos los datos deben ser recolectados del Single Sign On que hayas elegido en el login.
     -   Conexión a PokéAPI (https://pokeapi.co/)
     -   Buscar pokémones por nombre
     -   El resultado de la busqueda tendra que arrojar los siguientes datos:
@@ -31,8 +33,8 @@ La prueba consistirá en construir una API REST (basada en .NET preferentemente,
         - 2 Imágenes del pokémon (sprites)
     -   Funcionalidad para agregar pokémon como favorito dentro de la aplicación web
     -   Poder eliminar favoritos
-
-_Nota: Para realizar esta prueba es necesario tener una instancia de [SQL Server Developer o SQL Server Express](https://www.microsoft.com/es-mx/sql-server/sql-server-downloads) o de alguna Base de Datos Relacional en tu equipo y compartir en el repositorio los scripts de creación del esquema de la base de datos._
+    -   
+_Nota: Tu API es la que debe realizar los llamados a la PokéAPI. Para realizar esta prueba es necesario tener una instancia de [SQL Server Developer o SQL Server Express](https://www.microsoft.com/es-mx/sql-server/sql-server-downloads) o de alguna Base de Datos Relacional en tu equipo y compartir en el repositorio los scripts de creación del esquema de la base de datos._
 
 **La estructura del repositorio debe de tener tres directorios en la raíz, aparte de este README.MD, un directorio para la aplicación web, otro para el API REST y un último para los scripts de la base de datos.**
 
