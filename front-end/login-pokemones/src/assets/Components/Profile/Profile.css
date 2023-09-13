@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.title-profile {
+    display: flex;
+    width: 100%;
+}
+
+.title-profile h2 {
+    margin-left: 20px;
+}
+
+.data-list {
+    list-style: none;
+}
