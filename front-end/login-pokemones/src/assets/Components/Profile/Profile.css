@@ -1,18 +1,27 @@
-.container {
+.container-profile {
     display: flex;
+    flex-direction: column;
     width: 80%;
-    margin-top: 30px;
+    margin: 30px auto;  
+    background: white;
+    border-radius: 5px;
 }
 
 .title-profile {
     display: flex;
     width: 100%;
+    margin-top: 20px;
 }
 
 .title-profile h2 {
     margin-left: 20px;
 }
 
+.profile-card {
+    width: 100%;
+}
+
 .data-list {
     list-style: none;
+    text-align: left;
 }

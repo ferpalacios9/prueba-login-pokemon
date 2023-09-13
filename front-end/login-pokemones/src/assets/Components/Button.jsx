@@ -5,7 +5,7 @@ import { BsMicrosoft } from 'react-icons/bs';
 
 const ButtonLogin = () => {
     return (
-        <div className='container'>
+        <div className='container-button'>
             <button
                 className="button-login"
                 onClick={() => {
